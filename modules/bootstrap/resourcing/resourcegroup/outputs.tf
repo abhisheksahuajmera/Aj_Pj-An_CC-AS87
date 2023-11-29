@@ -1,2 +1,2 @@
-output "nameop"      { value = "${module.resourcing.name}" }
-output "locationop"      { value = "${module.resourcing.location}" }
+output "nameop"      { value = "azurerm_resource_group.resource_group.name" }
+output "locationop"      { value = "${azurerm_resource_group.resource_group.name}" }
