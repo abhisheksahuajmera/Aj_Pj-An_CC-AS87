@@ -14,17 +14,7 @@ provider "azurerm" {
 }
 
 // Resource-Group
-resource "azurerm_resource_group" "rg101tg" {
-  name     = "rg101"
+resource "azurerm_resource_group" "rg101-devtg" {
+  name     = "rg101-dev"
   location = "east us"
-}
-
-// Resource
-resource "azurerm_aadb2c_directory" "adb2c101tg" {
-  country_code            = "US"
-  data_residency_location = "United States"
-  display_name            = "adb2c101"
-  domain_name             = "adb2c101.onmicrosoft.com"
-  resource_group_name     = "rg101"
-  sku_name                = "PremiumP1"
 }
