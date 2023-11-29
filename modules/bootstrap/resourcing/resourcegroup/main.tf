@@ -6,11 +6,11 @@ variable "rg_version" {
 
 // Resource-Group
 # resource "azurerm_resource_group" "${var.prefixop}-${var.environmentop}-${var.environment_versionop}-${var.rg_versionop}tg" {
-#   name     = "var.prefixop-var.environmentop-${var.environment_versionop}-${var.rg_versionop}"
+#   name     = "var.prefixop-var.environmentop-var.environment_versionop-var.rg_versionop"
 #   location = "east us"
 # }
 
 resource "azurerm_resource_group" "argtg" {
-  name     = "var.prefixop"
+  name     = "var.prefixop-var.environmentop-var.environment_versionop-var.rg_versionop"
   location = "east us"
 }
