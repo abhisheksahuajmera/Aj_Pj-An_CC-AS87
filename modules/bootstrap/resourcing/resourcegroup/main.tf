@@ -5,7 +5,7 @@ variable "rg_version" {
 }
 
 // Resource-Group
-resource "azurerm_resource_group" "${var.prefix}-${var.environment}-${var.environment_version}-${var.rg_version}tg" {
-  name     = "${var.prefix}-${var.environment}-${var.environment_version}-${var.rg_version}"
+resource "azurerm_resource_group" "${var.prefixop}-${var.environmentop}-${var.environment_versionop}-${var.rg_versionop}tg" {
+  name     = "${var.prefixop}-${var.environmentop}-${var.environment_versionop}-${var.rg_versionop}"
   location = "east us"
 }

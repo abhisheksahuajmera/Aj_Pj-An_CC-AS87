@@ -15,5 +15,5 @@ provider "azurerm" {
 
 
 module "resourcing" {
-  source  = "./modules/bootstrap/resourcing/resourcegroup"
+  source  = "./modules/bootstrap/resourcing/resourcegroup" // Add version after registry
 }
