@@ -15,6 +15,6 @@ provider "azurerm" {
 
 
 module "resourcing" {
-  source  = "modules/bootstrap/resourcing/resourcegroup"
+  source  = "./modules/bootstrap/resourcing/resourcegroup"
   version = "100"
 }
