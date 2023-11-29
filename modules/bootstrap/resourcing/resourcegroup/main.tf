@@ -4,7 +4,7 @@ variable "rg_version" {
   default     = "100"
 }
 
-resource "azurerm_resource_group" "var.prefixop-var.environmentop-var.environment_versionop-var.rg_versionoptg" {
+resource "azurerm_resource_group" "resource_group" {
   name     = "var.prefixop-var.environmentop-var.environment_versionop-var.rg_versionop"
   location = "east us"
 }
