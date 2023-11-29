@@ -14,7 +14,7 @@ provider "azurerm" {
 }
 
 // Resource-Group
-resource "azurerm_resource_group" "rg101-devtg" {
-  name     = "rg101-dev"
+resource "azurerm_resource_group" "assetronai-dev-100tg" {
+  name     = "assetronai-dev-100"
   location = "east us"
 }
