@@ -1,3 +1,7 @@
+variable "prefixop" {}
+variable "environmentop" {}
+variable "environment_versionop" {}
+
 module "resourcing" {
   source  = "./modules/bootstraping/resourcing/resourcegroup" // Add version after registry
   prefix  = "${var.prefixop}"
