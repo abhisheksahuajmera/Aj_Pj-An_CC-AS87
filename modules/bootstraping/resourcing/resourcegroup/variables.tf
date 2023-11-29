@@ -1,3 +1,4 @@
+// Coming from root module or else create .tf var for each sub module
 variable "prefix" {
   type        = string
   description = "(Optional) The prefix which should be used for all resources in this example. Defaults to burrito."
