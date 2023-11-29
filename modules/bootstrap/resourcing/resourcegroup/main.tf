@@ -1,7 +1,7 @@
 locals {
- prefixop  = "var.prefixop",
-// prefixop  = ${var.prefixop},
- prefixopmy  = "prefixopmy",
+ prefixop  = "var.prefixop"
+// prefixop  = ${var.prefixop}
+ prefixopmy  = "prefixopmy"
 }
  
 variable "rg_version" {
