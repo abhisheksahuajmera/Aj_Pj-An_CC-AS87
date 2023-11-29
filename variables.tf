@@ -1,3 +1,9 @@
+variable "org" {
+  description = "Org name"
+  type        = string
+  default     = "Ajmerainfotech"
+}
+
 variable "project" {
   description = "project"
   type        = string
@@ -8,6 +14,12 @@ variable "prefix" {
   type        = string
   description = "(Optional) The prefix which should be used for all resources in this example. Defaults to burrito."
   default     = "Assetronai"
+}
+
+variable "workspace" {
+  description = "workspace"
+  type        = string
+  default     = "Aj_Pj-An_CC-AS87-dev"
 }
 
 variable "environment" {
