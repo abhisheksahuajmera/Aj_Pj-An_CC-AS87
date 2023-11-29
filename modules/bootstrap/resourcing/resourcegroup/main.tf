@@ -1,5 +1,5 @@
 locals {
- prefixop  = var.prefixop,
+ prefixop  = "var.prefixop",
 // prefixop  = ${var.prefixop},
  prefixopmy  = "prefixopmy",
 }
